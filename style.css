@@ -1,0 +1,368 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* css reset ends */
+
+/* custom css starts */
+
+/* common css */
+.flex{
+    display: flex;
+}
+.center{
+    justify-content: center;
+}
+/* custom css starts */
+main{
+    padding: 10px;
+}
+
+/* header css starts */
+.vector-img{
+    width: 1%;
+}
+.flex{
+    display: flex;
+}
+.center{
+    text-align: center;
+}
+h1{
+    font-style: italic;
+}
+.white{
+    color:#FFFFFF
+}
+/* header css ends */
+
+/* varities css starts */
+
+.varities-head{
+    text-align: center;
+}
+.small-line{
+    height: 3px;
+    width: 80px;
+    background: #342679;
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+margin: auto;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 8px;
+    margin-top: 10px;
+}
+.position-box{
+    position: relative;
+}
+.img-style{
+    border-radius: 10px;
+}
+.pizza-box{
+    position: absolute;
+    padding: 12px;
+    top: 348px;
+    width: 96.5%;
+    height: 165.11px;
+    background-color: #342679;
+    opacity: 0.6;
+}
+.white-box{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.para-font{
+    color: #ffffff;
+    margin-top: 20px;
+}
+.mt{
+    margin-top: 32px;
+}
+.explore-btn{
+    height: 15px;
+    width: 67px;
+    border: 2px solid #ffffff;
+    font-size: 9px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 5px;
+}
+.m-r{
+    margin-left: 25px;
+}
+.small-s{
+    font-size: 9px;
+}
+.font{
+    font-size: 9px;
+    color: #ffffff;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.flex-inline{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.color{
+    border-radius: 10px;
+}
+.container-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.crispy-box{
+position: absolute;
+top: 121px;
+height: 142px;
+width: 94%;
+background-color: #ffffff;
+padding: 10px;
+opacity: 0.7;
+}
+.crispy-head{
+    font-weight: bold;
+}
+.crispy-para{
+    margin-top: 34px;
+    font-size: 10px;
+}
+.explore{
+    font-size: 10px;
+}
+.black-font{
+    font-size: 10px;
+}
+.icon-font{
+    font-size: 10px;
+}
+.paneer-box{
+    position: absolute;
+top: 121px;
+height: 142px;
+width: 94%;
+background-color: #ffffff;
+padding: 10px;
+opacity: 0.7;
+}
+.down-line{
+    margin-top: 51px;
+}
+.macaroon-box{
+    position: absolute;
+    top: 121px;
+    height: 120px;
+    width: 94%;
+    background-color: black;
+    padding: 10px;
+    opacity: 0.7;
+}
+.macaroon-head{
+    color: white;
+    font-weight: bold;
+}
+.macaroon-para{
+    color: #ffffff;
+    font-size: 11px;
+    margin-top: 17px;
+}
+.down{
+    margin-top: 15px;
+}
+.white-font{
+    color: #ffffff;
+    font-size: 10px;
+}
+.doughnut-para{
+    margin-top: 18px;
+    font-size: 10px;
+}
+.down-l{
+    margin-top: 25px;
+}
+/* varities section css ends */
+
+/* cuisine css starts */
+
+.sec-padd{
+    padding: 8% 3%;
+}
+.para-st{
+    font-size: 12px;
+    margin-top: 8px;
+}
+.width{
+    width: 30%;
+}
+/* cuisine css ends */
+
+/* chef css starts */
+.underline{
+    width: 55px;
+height: 3px;
+background: #342679;
+margin: auto;
+margin-top: 8px;
+}
+.img-mt{
+    margin-top: 10px;
+}
+.chef-img{
+    /* width: 8%; */
+    border-radius: 50%;
+}
+.chef-position{
+    position: absolute;
+    top: 10px;
+}
+.chef-inline{
+    display: flex;
+    justify-content: space-between;
+    /* width: 10%;
+    margin: 0 auto; */
+}
+.mar-r{
+    margin-left: 314px;
+    margin-top: 50px;
+}
+.box{
+    width: 225px;
+    height: auto;
+    background-color: #FFFFFF;
+    margin-top: 42px;
+    margin-left: 392px;
+    border-radius: 10px;
+}
+.mar-s{
+    margin-left: 34px;
+    margin-top: 50px;
+}
+/* chief css ends */
+
+/* food guide css starts */
+.food-position{
+    position: absolute;
+    top: 10px;
+    left: 46%;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    background-color: #342679;
+    border-radius: 50%;
+    margin: auto;
+}
+.small-f{
+    font-size: 7px;
+    margin-top: 9px;
+}
+.width-s{
+    width: 17%;
+    /* background-color:black; */
+}
+.carrot{
+    position: absolute;
+    top: 12px;
+    left: 102px;
+}
+.position-size{
+    position: absolute;
+    top: 185px;
+    left: 104px;
+}
+.apple{
+    position: absolute;
+    top: 12px;
+    left: 102px;
+}
+.apple-position{
+    position: absolute;
+    bottom: 219px;
+    left: 104px;
+}
+.vec-1{
+    position: absolute;
+    top: 12px;
+    left: 102px;
+}
+.vec-pos{
+    position: absolute;
+    top: 188px;
+    right: 104px;
+}
+.vec-2{
+    position: absolute;
+    top: 12px;
+    left: 102px;
+}
+.vec-pos1{
+    position: absolute;
+    bottom: 219px;
+    right: 104px;
+}
+
+/* food section css ends */
+
+/* footer css starts */
+.foot-pad{
+    padding: 50px;
+}
+.ml-left1{
+    display: flex;
+    justify-content: center;
+}
+.ml-10{
+    margin-left: 10px;
+}
+
+body {
+    font-family: 'Poppins';
+} 
